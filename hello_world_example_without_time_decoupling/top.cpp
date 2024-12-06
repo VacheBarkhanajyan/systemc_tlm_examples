@@ -1,4 +1,4 @@
-#include "top.hpp"
+#include "top.h"
 
 Top::Top(sc_core::sc_module_name nm) 
     : sc_module(nm)

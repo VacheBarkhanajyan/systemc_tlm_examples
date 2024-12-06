@@ -1,13 +1,13 @@
 #include <systemc> 
-#include "initiator.hpp" 
-#include "target.hpp" 
-#include "top.hpp" 
+#include "initiator.h" 
+#include "target.h" 
+#include "top.h" 
 #include <tlm> 
 #include <cstring> 
  
-using namespace sc_core; 
-using namespace sc_dt; 
-using namespace std; 
+// using namespace sc_core; 
+// using namespace sc_dt; 
+// using namespace std; 
  
  
 int sc_main(int argc, char* argv[]) { 
@@ -16,7 +16,7 @@ int sc_main(int argc, char* argv[]) {
      
   Top top("top"); 
      
-  sc_start(); 
+  sc_core::sc_start(); 
  
   return 0; 
  

@@ -12,7 +12,7 @@ public:
 
     Target(sc_core::sc_module_name nm);
  
-    void b_transport(tlm::tlm_generic_payload& trans, sc_core::sc_time& delay);
+    void b_transport(tlm::tlm_generic_payload& gp, sc_core::sc_time& delay);
 }; 
  
 #endif // TARGET

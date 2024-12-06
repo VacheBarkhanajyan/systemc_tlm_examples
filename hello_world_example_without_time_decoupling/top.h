@@ -2,8 +2,8 @@
 #define TOP 
  
 #include <systemc> 
-#include "initiator.hpp" 
-#include "target.hpp" 
+#include "initiator.h" 
+#include "target.h" 
 #include <tlm> 
  
 class Top : public sc_core::sc_module { 
